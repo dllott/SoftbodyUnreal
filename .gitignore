@@ -45,8 +45,8 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+# Binaries/*
+# Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -71,3 +71,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#specific files
+Binaries/Win64/UE4Editor.modules
+Binaries/Win64/UE4Editor-PluginTests.dll
+Binaries/Win64/UE4Editor-PluginTests.pdb
+Plugins/TestPlugin/Binaries/Win64/UE4Editor.modules
+Plugins/TestPlugin/Binaries/Win64/UE4Editor-TestPlugin.dll
+Plugins/TestPlugin/Binaries/Win64/UE4Editor-TestPlugin.pdb
